@@ -13,7 +13,7 @@
  * implied. See the License for the specific language governing permissions   *
  * and limitations under the License.                                         *
  ******************************************************************************/
-package org.braveserver.server.bootstrap;
+package org.braveserver.server.bootstrap.spring;
 
 import org.apache.commons.cli.*;
 import org.braveserver.utils.spring.SimpleRootApplicationContext;
@@ -25,6 +25,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 
 import java.util.concurrent.Future;
+import org.braveserver.server.bootstrap.BraveServer;
 
 /**
  * The main class for boostrapping the Brave Server.
